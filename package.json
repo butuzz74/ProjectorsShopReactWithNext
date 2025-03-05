@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "next prettier --write .",
-    "postinstall": "prisma generate"
+    "prisma:generate": "prisma generate"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^15.2.1",
