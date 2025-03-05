@@ -1,5 +1,5 @@
 import js from "@eslint/js";
-import next from "@next/eslint-plugin-next";
+import next from "eslint-plugin-next";
 
 export default [
   js.configs.recommended,
