@@ -10,9 +10,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "next prettier --write ."
+    "format": "next prettier --write .",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^15.2.1",
     "@prisma/client": "^6.3.1",
     "@reduxjs/toolkit": "^2.6.0",
     "autoprefixer": "^10.4.20",
